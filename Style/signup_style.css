@@ -1,0 +1,155 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{ 
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   overflow: hidden;
+  
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 15px;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.luxurybutton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  gap: 35px; 
+}
+.images {
+  width: 50%;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
+}
+.main {
+  width: 50%;
+ padding: 30px 90px;
+}   
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: silver;
+}
+.main h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.main label {
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family:'Montserrat', sans-serif ;
+}
+.btn { 
+    background: black;
+    border: 1.5px solid black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    padding: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+input:focus {
+  outline: none;
+  
+}
+.btn:hover { 
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+  transition: 0.4s;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+#footer-text  {
+    color: silver;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 20px;
+}
+span { 
+    color: black;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+span:hover{
+    cursor: pointer;
+}
+.terms {
+color: silver;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.terms label{
+    text-transform: lowercase ;
+    letter-spacing: 1px;
+}
+
+
+.hr1 {
+    flex-shrink: 0;
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    height: 1px;
+}
+.login-button{
+font-weight: bold;
+font-size: 15px;
+
+}
+h1{
+    padding-bottom:5px ;
+}
+
+
