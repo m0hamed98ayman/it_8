@@ -137,33 +137,3 @@ hr {
     cursor: pointer;
 
 }
-/* الألوان الأساسية للدارك مود */
-.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-/* تعديل ألوان الـ nav عشان تليق مع الدارك مود */
-.dark-mode nav {
-    background-color: #1e1e1e;
-}
-
-/* نخلي اللينكات لونها أبيض بدل أسود */
-.dark-mode a {
-    color: #ffffff;
-}
-
-/* لو عندك بوكسات بيضاء (زي في صفحة الـ Contact us أو الفورم) */
-.dark-mode .rightside, 
-.dark-mode input, 
-.dark-mode textarea, 
-.dark-mode select {
-    background-color: #2c2c2c;
-    color: white;
-    border-color: #444;
-}
-
-/* الكلام اللي لونه فضي أو رمادي نخليه أفتح شوية عشان يبان */
-.dark-mode p, .dark-mode label, .dark-mode .terms {
-    color: #bbbbbb;
-}
