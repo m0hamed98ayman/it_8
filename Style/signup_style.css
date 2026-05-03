@@ -153,3 +153,10 @@ h1{
 }
 
 
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}

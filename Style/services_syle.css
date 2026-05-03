@@ -348,3 +348,10 @@ hr {
     border: none;
     height: 1px;
 }
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
