@@ -24,5 +24,15 @@ const agree = document.getElementById("terms").checked;
         e.preventDefault();
         return;
     }
+    if (!email.includes("@") || !email.includes(".")) {
+    alert("Enter a valid email");
+    e.preventDefault();
+    return;
 }
-;
+if (fullName.length < 3) {
+    alert("Name must be at least 3 characters");
+    e.preventDefault();
+    return;
+}
+};
+
