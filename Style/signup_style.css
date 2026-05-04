@@ -41,11 +41,7 @@ a {
     margin-right: auto; 
 }
 
-.container {
-  display: flex;
-  min-height: 100vh;
-  gap: 35px; 
-}
+
 .images {
   width: 50%;
 }
@@ -70,11 +66,7 @@ form {
     margin-bottom: 20px;
     color: silver;
 }
-.main h1 {
-    font-size: 30px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
+
 .main label {
 font-size: 14px;
 text-transform: uppercase;
@@ -104,11 +96,7 @@ input:focus {
   border: 1.5px solid black;
   transition: 0.4s;
 }
-input {
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-  }
+
 #footer-text  {
     color: silver;
     font-size: small;
