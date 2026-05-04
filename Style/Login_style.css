@@ -27,26 +27,6 @@ li {
     list-style-type: none;
 }
 
-a {
-    color: black;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.luxurybutton {
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: auto; 
-}
-
-.main-div{
-    display: flex;
-    height:100vh;
-    flex-direction: row-reverse;
-    align-items:center;
-    height:100%;
-}
-
 .form-div{
     flex:1;
     padding:0 180px;
@@ -61,8 +41,8 @@ a {
 }
 
 .img-div img {
-    width:142%;
-    height:590px;
+    width:130%;
+    height:700px;
     display: block;
 }
 
