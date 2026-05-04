@@ -133,7 +133,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #333;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
 }
 
 /*AYMAN code*/
