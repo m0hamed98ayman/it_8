@@ -24,4 +24,5 @@ const agree = document.getElementById("terms").checked;
         e.preventDefault();
         return;
     }
-};
+}
+;
