@@ -1,4 +1,5 @@
 document.querySelector("form").onsubmit = function(e) {
+    //js
     const fullname = document.getElementById("FULLNAME").value;
     const email = document.getElementById("EMAIL").value;
     const message = document.getElementById("MESSAGE").value;
