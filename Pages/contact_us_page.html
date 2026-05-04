@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    //html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
@@ -36,11 +37,11 @@
         <P>123 Luxury Avenue,Automotive District,10024</P>
         </div>
         <div class="rightside">
-        <form>
+        <form id="contactform">
             <H3>FEEDBACK & COMPLAINTS</H3>
-            <label for="FULL NAME"> FULL NAME</label>
+            <label for="FULLNAME"> FULL NAME</label>
             
-            <input type="text" id="FULL NAME" placeholder="Enter your full name">
+            <input type="text" id="FULLNAME" placeholder="Enter your full name">
             
             <label for="EMAIL">EMAIL ADDRESS</lable>
             
@@ -61,9 +62,10 @@
             <br>
             <input type="text" id="MESSAGE" placeholder="Please describe your inquiry or complaint in detail.">
             <br>
-            <input type="submit" value="Send your message">
+            <input type="submit" value="Send your message" id="send">
         </form>
         </div>
     </main>
+    <script src="JS\contact_JS.js"></script>
 </body>
 </html>
